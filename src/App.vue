@@ -1,5 +1,9 @@
 <script setup>
+async function asyncfunction(){
+const result = await fetch ('http://api.wolframalpha.com/v1/result');
 
+
+}
 </script>
 
 
@@ -11,6 +15,10 @@
   <router-link to="/aboutPage">Search</router-link> |
   <router-link to="/searchPage">Contact Page</router-link>|
   <router-link to="/settingsPage">Settings</router-link>|
+
+  <button @click="">Fetch</button>
+
+  a
 
 </nav>
 <router-view></router-view>
