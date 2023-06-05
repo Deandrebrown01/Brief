@@ -1,9 +1,8 @@
 <script setup>
-async function asyncfunction(){
-const result = await fetch ('http://api.wolframalpha.com/v1/result');
 
 
-}
+
+
 </script>
 
 
@@ -16,9 +15,10 @@ const result = await fetch ('http://api.wolframalpha.com/v1/result');
   <router-link to="/searchPage">Contact Page</router-link>|
   <router-link to="/settingsPage">Settings</router-link>|
 
-  <button @click="">Fetch</button>
+ 
 
-  a
+
+
 
 </nav>
 <router-view></router-view>
@@ -26,7 +26,10 @@ const result = await fetch ('http://api.wolframalpha.com/v1/result');
 
 
 <style>
-body {
-  background-color: #B39DDB;
-}
+body{
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(171, 207, 233);
+text-align: center;
+ }
+
 </style>
