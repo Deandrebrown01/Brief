@@ -1,3 +1,3 @@
 <template>
-    <h1>Hello</h1>
+    <h1>This Is The Settings Page</h1>
 </template>
